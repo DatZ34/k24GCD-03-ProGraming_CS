@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|c:\\users\\ad\\onedrive\\documents\\github\\k24gcd-03-programing_cs\\lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|c:\\users\\ad\\onedrive\\documents\\github\\k24gcd-03-programing_cs\\lab03\\mathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|solutionrelative:mathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|c:\\users\\ad\\onedrive\\documents\\github\\k24gcd-03-programing_cs\\lab03\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC4C5D5-7A75-48D6-81CE-62DEE791E438}|lab03.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatHang.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\MatHang.cs",
+              "RelativeDocumentMoniker": "MatHang.cs",
+              "ToolTip": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\MatHang.cs",
+              "RelativeToolTip": "MatHang.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCEAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:29:47.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:27:07.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\AD\\OneDrive\\Documents\\GitHub\\k24GCD-03-ProGraming_CS\\lab03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAowMYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T01:38:16.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

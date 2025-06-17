@@ -1,0 +1,15 @@
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\bin\Debug\net8.0\lab03.exe
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\bin\Debug\net8.0\lab03.deps.json
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\bin\Debug\net8.0\lab03.runtimeconfig.json
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\bin\Debug\net8.0\lab03.dll
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\bin\Debug\net8.0\lab03.pdb
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.AssemblyInfoInputs.cache
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.AssemblyInfo.cs
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.csproj.CoreCompileInputs.cache
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.sourcelink.json
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.dll
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\refint\lab03.dll
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.pdb
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\lab03.genruntimeconfig.cache
+C:\Users\AD\OneDrive\Documents\GitHub\k24GCD-03-ProGraming_CS\lab03\obj\Debug\net8.0\ref\lab03.dll
