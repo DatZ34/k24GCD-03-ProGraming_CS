@@ -1,9 +1,12 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using Firebase.Database;
 using Firebase.Database.Query;
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Collections;
 namespace Lab_04
 {
     internal class Program
@@ -95,6 +98,87 @@ namespace Lab_04
             await GenerateTestPlayers(10);
 
         }
+        public void Menu()
+        {
+            Console.WriteLine("===Console Nhập liệu học sinh ===");
+            Console.WriteLine("1.Nhập dữ liệu sinh viên");
+            Console.WriteLine("2.Ghi dữ liệu vào filebase");
+            Console.WriteLine("3.Lấy dữ liệu sinh viên từ firebase");
+            Console.WriteLine("4.Cập nhập dữ liệu sinh viên lên firebase");
+            Console.WriteLine("5.Xóa dữ liệu sinh viên trên firebase");
+            Console.WriteLine("0.Thoát");
+            Console.WriteLine("Nhập số muốn chọn");
+        }
+        public void ConsoleStudent()
+        {
+            
+            Dictionary<int , Lab_04.Student> data = new Dictionary<int, Lab_04.Student>();
+            bool isRunning = true;
+            while (isRunning)
+            {
+                Menu();
+                int d = Convert.ToInt32(Console.ReadLine());
+                switch (d)
+                {
+                    case 1:
+                        AddStudent(data);
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 0:
+                        isRunning = false;
+                        break;
+                }
+            }
+        }
+        public void AddStudent(Dictionary<int , Lab_04.Student> dt)
+        {
+            bool c = true;
+            while (c)
+            {
+                Console.WriteLine("Nhập tên sinh viên :");
+                string name = Console.ReadLine();
+                Console.WriteLine("Nhập email sinh viên: ");
+                string em = Console.ReadLine();
+                Console.WriteLine("Nhập lớp sinh viên: ");
+                string cl = Console.ReadLine();
 
+                int Mssv = GetnextIndexAvailable(dt);
+                Student st = new Student(name, Mssv, em, cl);
+                dt[Mssv] = st;
+
+                Console.WriteLine("bạn có muốn tiesp tuc không : 1. có , 2. không");
+                int d = Convert.ToInt32(Console.ReadLine());
+
+                switch (d)
+                {
+                    case 1:
+                        break;
+                    case 2:
+                        c = false;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+        }
+        public int GetnextIndexAvailable(Dictionary<int , Lab_04.Student> st)
+        {
+            int idx = 1;
+            Hashtable dt = new Hashtable(st);
+            while (dt.ContainsKey(idx))
+            {
+                idx++;
+            }
+            return idx;
+            
+        }
     }
 }
