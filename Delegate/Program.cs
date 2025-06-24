@@ -124,7 +124,7 @@ namespace Delegate
         static void VD04()
         {
             MyDelegate2 ShowStringDelegate = new MyDelegate2(ShowString);
-            VD04_ShowTenCallbacl(ShowStringDelegate);
+            ShowStringDelegate("da");
         }
         static void ShowString(string s)
         {
