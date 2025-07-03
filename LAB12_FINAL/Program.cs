@@ -103,16 +103,17 @@ namespace LAB12_FINAL
                 .Where(p => p.Value.VipLevel > 0)
                 .Select(p => new
                 {
+
                     AwardedGoldAmount = (500 * p.Value.VipLevel) - 500,
                     CurrentGold = p.Value.Gold,
                     Name = p.Value.Name,
                     Level = p.Value.Level,
-                    VipLevel = p.Value.VipLevel
-
+                    VipLevel = p.Value.VipLevel,
+                    Rank = ((500 * p.Value.VipLevel) - 500) == 2000 ? 1 : ((500 * p.Value.VipLevel) - 500) == 1500 ? 2 : 3
                 })
                 .OrderByDescending(p => p.Level)
                 .Take(3)
-                .ToDictionary(p => $"Level: {p.Level}");
+                .ToDictionary(p => $"Rank: {p.Rank}");
             
             int index = 1;
             foreach(var p in Top3VipAwards)
